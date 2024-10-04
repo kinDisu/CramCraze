@@ -1,0 +1,6 @@
+.red{
+    background-color: darkred;
+}
+.navbar-nav .active a {
+    background-color: darkred !important;
+}

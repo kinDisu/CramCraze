@@ -1,0 +1,69 @@
+
+/* General navbar styling */
+/* .navbar {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Navbar brand on the left */
+.navbar-brand {
+    font-size: 30px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar links */
+.navbar-links {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-links a {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Make sure the navbar links don't underline when hovered */
+.navbar-links a:hover {
+    text-decoration: none;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Navigation Bar (Red and White) */
+nav {
+    background-color: darkred;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
