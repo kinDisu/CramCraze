@@ -9,10 +9,10 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
     if($row['Password']== $_POST['Password']){
         session_start();
         $_SESSION["name"]=$row["name"];
-        header('Location: resources.php');
+        //header('Location: resources.php');
     }else{
-
-        header('Location: login.php');
+        echo("jhgfhj");
+        //header('Location: login.php');
     }
 }
 $conn=null;
